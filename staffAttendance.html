@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Daffodil Preparatory School</title>
+    <!--favicon-->
+    <link
+      rel="icon"
+      href="assets/images/daffodil-school.webp"
+      type="image/png"
+    />
+    <!-- Vector CSS -->
+    <link
+      href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css"
+      rel="stylesheet"
+    />
+    <!--plugins-->
+    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+    <link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet" />
+    <link
+      href="assets/plugins/select2/css/select2-bootstrap4.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/plugins/metismenu/css/metisMenu.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css"
+      rel="stylesheet"
+    />
+    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+    <link
+      href="assets/plugins/datetimepicker/css/classic.date.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!--Data Tables -->
+    <link
+      href="assets/plugins/datatable/css/dataTables.bootstrap4.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/plugins/datatable/css/buttons.bootstrap4.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- loader-->
+    <link href="assets/css/pace.min.css" rel="stylesheet" />
+    <script src="assets/js/pace.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto&display=swap"
+    />
+    <!-- Icons CSS -->
+    <link rel="stylesheet" href="assets/css/icons.css" />
+    <!-- App CSS -->
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/dark-sidebar.css" />
+    <link rel="stylesheet" href="assets/css/dark-theme.css" />
+  </head>
+
+  <body>
+    <!-- wrapper -->
+    <div class="wrapper">
+      <!--header-->
+      <header class="top-header">
+        <nav class="navbar navbar-expand">
+          <div class="sidebar-header">
+            <div class="d-none d-lg-flex">
+              <img
+                src="assets/images/logo-img.png"
+                class="logo-icon-2"
+                alt=""
+              />
+            </div>
+            <div class="d-none d-lg-flex ps-3">
+              <img src="assets/images/text-logo.png" class="w-75" alt="" />
+            </div>
+            <a href="javascript:;" class="toggle-btn ms-lg-auto">
+              <i class="bx bx-menu"></i>
+            </a>
+          </div>
+
+          <div class="right-topbar ms-auto">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown dropdown-user-profile">
+                <a
+                  class="nav-link dropdown-toggle dropdown-toggle-nocaret"
+                  href="javascript:;"
+                  data-bs-toggle="dropdown"
+                >
+                  <div class="d-flex user-box align-items-center">
+                    <div class="user-info">
+                      <p class="user-name mb-0">Jessica Doe</p>
+                      <p class="designattion mb-0">Available</p>
+                    </div>
+                    <img
+                      src="assets/images/avatars/user-2.jpg"
+                      class="user-img"
+                      alt="user avatar"
+                    />
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!--end header-->
+
+      <!--navigation-->
+      <div class="nav-container">
+        <div class="mobile-topbar-header">
+          <div class="d-flex gap-3">
+            <img src="assets/images/logo-img.png" class="logo-icon-2" alt="" />
+          </div>
+          <div class="ms-3">
+            <img src="assets/images/text-logo.png" class="w-75" alt="" />
+          </div>
+          <a href="javascript:;" class="toggle-btn ms-auto">
+            <i class="bx bx-menu"></i
+          ></a>
+        </div>
+        <nav class="topbar-nav" id="topbar-nav">
+          <ul class="metismenu" id="menu">
+            <li>
+              <a href="index.html">
+                <div class="parent-icon icon-color-1">
+                  <i class="bx bx-home-alt"></i>
+                </div>
+                <div class="menu-title">Dashboard</div>
+              </a>
+            </li>
+            <li>
+              <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon text-primary">
+                  <i class="bx bx-edit"></i>
+                </div>
+                <div class="menu-title">Enrollment</div>
+              </a>
+              <ul class="dropdown-menu2">
+                <li>
+                  <a href="admission.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Admission</a
+                  >
+                </li>
+                <li>
+                  <a href="applicationManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Application
+                    Management</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon text-primary">
+                  <i class="bx bxs-user"></i>
+                </div>
+                <div class="menu-title">Student</div>
+              </a>
+              <ul>
+                <li>
+                  <a href="studentRecords.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Student Records</a
+                  >
+                </li>
+                <li>
+                  <a href="studentAttendance.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Student Attendance</a
+                  >
+                </li>
+                <li>
+                  <a href="parentInformation.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Parent/Guardian
+                    Information</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon text-primary">
+                  <i class="bx bxs-user-account"></i>
+                </div>
+                <div class="menu-title">Staff</div>
+              </a>
+              <ul>
+                <li>
+                  <a href="staffRecords.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Staff Records</a
+                  >
+                </li>
+
+                <li>
+                  <a href="staffTimetable.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Staff Timetable and
+                    Schedule</a
+                  >
+                </li>
+                <li>
+                  <a href="leaveManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Leave Management</a
+                  >
+                </li>
+                <li>
+                  <a href="staffAttendance.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Staff Attendance</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon text-primary">
+                  <i class="bx bx-door-open"></i>
+                </div>
+                <div class="menu-title">Class</div>
+              </a>
+              <ul>
+                <li>
+                  <a href="classManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Class Management</a
+                  >
+                </li>
+                <li>
+                  <a href="assignManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Assign Students and
+                    Teachers</a
+                  >
+                </li>
+                <li>
+                  <a href="studentTimetable.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Timetable and Schedule
+                    Management</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon text-primary">
+                  <i class="bx bx-money"></i>
+                </div>
+                <div class="menu-title">Payment</div>
+              </a>
+              <ul>
+                <li>
+                  <a href="paymentManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Payment List</a
+                  >
+                </li>
+                <li>
+                  <a href="tutionFees.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Create Payment</a
+                  >
+                </li>
+                <li>
+                  <a href="invoiceManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Invoice Management</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon text-primary">
+                  <i class="bx bx-abacus"></i>
+                </div>
+                <div class="menu-title">Incident</div>
+              </a>
+              <ul>
+                <li>
+                  <a href="incidentCreate.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Incident Create</a
+                  >
+                </li>
+                <li>
+                  <a href="incidentReports.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Incident Reports</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon text-primary">
+                  <i class="bx bx-cog"></i>
+                </div>
+                <div class="menu-title">System Setup</div>
+              </a>
+              <ul>
+                <li>
+                  <a href="subjectManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Subject Management</a
+                  >
+                </li>
+                <li>
+                  <a href="bookManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Book List
+                    Management</a
+                  >
+                </li>
+                <li>
+                  <a href="departmentManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Department
+                    Management</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="bx bx-right-arrow-alt"></i>Class and Grade
+                    Management</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon text-primary">
+                  <i class="bx bx-user-plus"></i>
+                </div>
+                <div class="menu-title">User</div>
+              </a>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="bx bx-right-arrow-alt"></i>User Management</a
+                  >
+                </li>
+                <li>
+                  <a href="roleManagement.html"
+                    ><i class="bx bx-right-arrow-alt"></i>Role Management</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="bx bx-right-arrow-alt"></i>Access Control
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--end navigation-->
+      <!--page-wrapper-->
+      <div class="page-wrapper">
+        <!--page-content-wrapper-->
+        <div class="page-content-wrapper">
+          <div class="page-content">
+            <!--breadcrumb-->
+            <div
+              class="page-breadcrumb d-none d-sm-flex align-items-center mb-3"
+            >
+              <div class="breadcrumb-title pe-3">Staff Attendance Records</div>
+              <div class="ps-3">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item">
+                      <a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      Staff Attendance Records
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+              <div class="ms-auto">
+                <div class="btn-group">
+                  <a href=""
+                    ><button type="button" class="btn btn-primary">
+                      <i class="bx bx-plus"></i> Create
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+            <!--end breadcrumb-->
+            <div class="row">
+              <div class="mx-auto">
+                <div class="card p-4">
+                  <div class="card-header border-bottom-0">
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <h5 class="mb-0">Staff Attendance Records</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table
+                        id="example"
+                        class="table table-striped table-bordered"
+                        style="width: 100%"
+                      >
+                        <thead>
+                          <tr>
+                            <th>Photo</th>
+                            <th>Name</th>
+                            <th>id</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="product-img bg-transparent">
+                                <img
+                                  src="assets/images/avatars/avatar-1.png"
+                                  class="rounded-circle"
+                                  width="35"
+                                  alt=""
+                                />
+                              </div>
+                            </td>
+
+                            <td>Mitchell Daniel</td>
+                            <td>835478</td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-light-success btn-block radius-30"
+                                >Present</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-warning text-white"
+                                ><i class="bx bx-edit"></i
+                              ></a>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-success text-white"
+                                ><i class="bx bx-detail"></i
+                              ></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="product-img bg-transparent">
+                                <img
+                                  src="assets/images/avatars/avatar-1.png"
+                                  class="rounded-circle"
+                                  width="35"
+                                  alt=""
+                                />
+                              </div>
+                            </td>
+
+                            <td>Milona Burke</td>
+                            <td>987546</td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-light-warning btn-block radius-30"
+                                >Absent</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-warning text-white"
+                                ><i class="bx bx-edit"></i
+                              ></a>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-success text-white"
+                                ><i class="bx bx-detail"></i
+                              ></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="product-img bg-transparent">
+                                <img
+                                  src="assets/images/avatars/avatar-1.png"
+                                  class="rounded-circle"
+                                  width="35"
+                                  alt=""
+                                />
+                              </div>
+                            </td>
+
+                            <td>Craig Clayton</td>
+                            <td>325687</td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-light-success btn-block radius-30"
+                                >Present</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-warning text-white"
+                                ><i class="bx bx-edit"></i
+                              ></a>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-success text-white"
+                                ><i class="bx bx-detail"></i
+                              ></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="product-img bg-transparent">
+                                <img
+                                  src="assets/images/avatars/avatar-1.png"
+                                  class="rounded-circle"
+                                  width="35"
+                                  alt=""
+                                />
+                              </div>
+                            </td>
+
+                            <td>Clark Andola</td>
+                            <td>658972</td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-light-warning btn-block radius-30"
+                                >Absent</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-warning text-white"
+                                ><i class="bx bx-edit"></i
+                              ></a>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-success text-white"
+                                ><i class="bx bx-detail"></i
+                              ></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="product-img bg-transparent">
+                                <img
+                                  src="assets/images/avatars/avatar-1.png"
+                                  class="rounded-circle"
+                                  width="35"
+                                  alt=""
+                                />
+                              </div>
+                            </td>
+
+                            <td>Craig Clayton</td>
+                            <td>325687</td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-light-success btn-block radius-30"
+                                >Present</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-warning text-white"
+                                ><i class="bx bx-edit"></i
+                              ></a>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-success text-white"
+                                ><i class="bx bx-detail"></i
+                              ></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="product-img bg-transparent">
+                                <img
+                                  src="assets/images/avatars/avatar-1.png"
+                                  class="rounded-circle"
+                                  width="35"
+                                  alt=""
+                                />
+                              </div>
+                            </td>
+
+                            <td>Mitchell Daniel</td>
+                            <td>835478</td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-light-success btn-block radius-30"
+                                >Present</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-warning text-white"
+                                ><i class="bx bx-edit"></i
+                              ></a>
+                              <a
+                                href="javascript:;"
+                                class="btn btn-sm btn-success text-white"
+                                ><i class="bx bx-detail"></i
+                              ></a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end row-->
+          </div>
+        </div>
+        <!--end page-content-wrapper-->
+      </div>
+      <!--end page-wrapper-->
+      <!--start overlay-->
+      <div class="overlay toggle-btn-mobile"></div>
+      <!--end overlay-->
+      <!--Start Back To Top Button-->
+      <a href="javaScript:;" class="back-to-top"
+        ><i class="bx bxs-up-arrow-alt"></i
+      ></a>
+      <!--End Back To Top Button-->
+      <!--footer -->
+      <div class="footer">
+        <p class="mb-0">
+          Daffodil Preparatory School @2024 | Developed By :
+          <a href="https://a2ninfotech.co.uk/" target="_blank"
+            >A2N InfoTech Ltd.</a
+          >
+        </p>
+      </div>
+      <!-- end footer -->
+    </div>
+    <!-- end wrapper -->
+
+    <!-- JavaScript -->
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!--plugins-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <!-- Vector map JavaScript -->
+    <script src="assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/plugins/vectormap/jquery-jvectormap-in-mill.js"></script>
+    <script src="assets/plugins/vectormap/jquery-jvectormap-us-aea-en.js"></script>
+    <script src="assets/plugins/vectormap/jquery-jvectormap-uk-mill-en.js"></script>
+    <script src="assets/plugins/vectormap/jquery-jvectormap-au-mill.js"></script>
+    <script src="assets/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
+    <script src="assets/js/index2.js"></script>
+
+    <!--Data Tables js-->
+    <script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        //Default data table
+        $("#example").DataTable();
+        var table = $("#example2").DataTable({
+          lengthChange: false,
+          buttons: ["copy", "excel", "pdf", "print", "colvis"],
+        });
+        table
+          .buttons()
+          .container()
+          .appendTo("#example2_wrapper .col-md-6:eq(0)");
+      });
+    </script>
+
+    <script src="assets/plugins/select2/js/select2.min.js"></script>
+    <script>
+      $(".single-select").select2({
+        theme: "bootstrap4",
+        width: $(this).data("width")
+          ? $(this).data("width")
+          : $(this).hasClass("w-100")
+          ? "100%"
+          : "style",
+        placeholder: $(this).data("placeholder"),
+        allowClear: Boolean($(this).data("allow-clear")),
+      });
+      $(".multiple-select").select2({
+        theme: "bootstrap4",
+        width: $(this).data("width")
+          ? $(this).data("width")
+          : $(this).hasClass("w-100")
+          ? "100%"
+          : "style",
+        placeholder: $(this).data("placeholder"),
+        allowClear: Boolean($(this).data("allow-clear")),
+      });
+    </script>
+
+    <!-- App JS -->
+    <script src="assets/js/app.js"></script>
+    <script>
+      new PerfectScrollbar(".dashboard-social-list");
+      new PerfectScrollbar(".dashboard-top-countries");
+    </script>
+  </body>
+</html>
